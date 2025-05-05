@@ -1,0 +1,21 @@
+=== Triage Report ===
+Timestamp: 20250504_125543
+
+Symptoms:
+- symptoms
+- conditions
+- possible_conditions
+
+Symptom Count: 3
+Priority Score: 3/10
+Triage Priority: routine
+Possible Conditions: undetermined condition
+
+Justification:
+Given the symptoms symptoms, conditions, possible_conditions, explain why the triage priority is 'routine' and suggest possible conditions: undetermined condition.
+
+2. Routine triage priority:
+
+- Routine triage priority:
+
+- The triage priority for this patient is 'routine'. This means that the patient's symptoms and conditions are not life-threatening or life-limiting, and the patient's

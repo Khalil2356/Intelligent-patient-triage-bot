@@ -1,0 +1,83 @@
+2025-05-02 23:46:20,819 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-02 23:46:20,819 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-02 23:46:43,143 - TriageBot - INFO - Loading quantized Mistral 7B model from local directory...
+2025-05-04 11:29:54,777 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-04 11:29:54,777 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-04 11:30:15,988 - TriageBot - INFO - Loading quantized TinyLlama model from local directory...
+2025-05-04 12:06:41,547 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-04 12:06:41,547 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-04 12:07:02,198 - TriageBot - INFO - Loading TinyLlama model from local directory...
+2025-05-04 12:15:50,302 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-04 12:15:50,302 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-04 12:16:07,593 - TriageBot - INFO - Loading TinyLlama model from local directory...
+2025-05-04 12:16:11,314 - TriageBot - INFO - TriageAgent initialized with CPU-optimized model
+2025-05-04 12:16:11,314 - TriageBot - INFO - Processing input: fever, cough, shortness of breath
+2025-05-04 12:16:11,314 - TriageBot - INFO - Extracting entities from text: fever, cough, shortness of breath
+2025-05-04 12:16:11,372 - TriageBot - INFO - Extracted entities: {'symptoms': ['cough', 'fever'], 'conditions': ['cough', 'shortness of breath', 'fever']}
+2025-05-04 12:16:11,372 - TriageBot - INFO - Extracted entities: {'symptoms': ['cough', 'fever'], 'conditions': ['cough', 'shortness of breath', 'fever']}
+2025-05-04 12:16:11,372 - TriageBot - INFO - Enriching entities: {'symptoms': ['cough', 'fever'], 'conditions': ['cough', 'shortness of breath', 'fever']}
+2025-05-04 12:16:11,372 - TriageBot - INFO - Enriched entities: {'symptoms': ['cough', 'fever'], 'conditions': ['cough', 'shortness of breath', 'fever'], 'possible_conditions': ['Bronchitis', 'Influenza', 'Bacterial Infection', 'COVID-19']}
+2025-05-04 12:16:11,372 - TriageBot - INFO - Enriched entities: {'symptoms': ['cough', 'fever'], 'conditions': ['cough', 'shortness of breath', 'fever'], 'possible_conditions': ['Bronchitis', 'Influenza', 'Bacterial Infection', 'COVID-19']}
+2025-05-04 12:16:11,372 - TriageBot - INFO - Reasoning with entities: {'symptoms': ['cough', 'fever'], 'conditions': ['cough', 'shortness of breath', 'fever'], 'possible_conditions': ['Bronchitis', 'Influenza', 'Bacterial Infection', 'COVID-19']}
+2025-05-04 12:20:57,833 - TriageBot - INFO - Triage result: {'priority': '<priority>', 'justification': '<justification>'}
+2025-05-04 12:20:57,833 - TriageBot - INFO - Triage result: {'priority': '<priority>', 'justification': '<justification>'}
+2025-05-04 12:20:57,833 - TriageBot - INFO - Report generated at: app/reports/triage_report_20250504_122057.txt
+2025-05-04 12:20:57,833 - TriageBot - INFO - Report generated at: app/reports/triage_report_20250504_122057.txt
+2025-05-04 12:21:02,969 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250504_122057.png
+2025-05-04 12:21:02,969 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250504_122057.png
+2025-05-04 12:24:57,838 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-04 12:24:57,838 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-04 12:25:17,549 - TriageBot - INFO - Loading TinyLlama model from local directory...
+2025-05-04 12:25:19,066 - TriageBot - INFO - TriageAgent initialized with CPU-optimized model
+2025-05-04 12:25:19,066 - TriageBot - INFO - Processing input: runny nose, sneezing, sore throat
+2025-05-04 12:25:19,066 - TriageBot - INFO - Extracting entities from text: runny nose, sneezing, sore throat
+2025-05-04 12:25:19,129 - TriageBot - INFO - Extracted entities: {'symptoms': [], 'conditions': ['sore']}
+2025-05-04 12:25:19,129 - TriageBot - INFO - Extracted entities: {'symptoms': [], 'conditions': ['sore']}
+2025-05-04 12:25:19,129 - TriageBot - INFO - Enriching entities: {'symptoms': [], 'conditions': ['sore']}
+2025-05-04 12:25:19,129 - TriageBot - INFO - Enriched entities: {'symptoms': [], 'conditions': ['sore'], 'possible_conditions': []}
+2025-05-04 12:25:19,129 - TriageBot - INFO - Enriched entities: {'symptoms': [], 'conditions': ['sore'], 'possible_conditions': []}
+2025-05-04 12:25:19,129 - TriageBot - INFO - Reasoning with entities: {'symptoms': [], 'conditions': ['sore'], 'possible_conditions': []}
+2025-05-04 12:30:17,182 - TriageBot - INFO - Triage result: {'priority': '<priority>', 'justification': '<justification>'}
+2025-05-04 12:30:17,182 - TriageBot - INFO - Triage result: {'priority': '<priority>', 'justification': '<justification>'}
+2025-05-04 12:30:17,198 - TriageBot - INFO - Report generated at: app/reports/triage_report_20250504_123017.txt
+2025-05-04 12:30:17,198 - TriageBot - INFO - Report generated at: app/reports/triage_report_20250504_123017.txt
+2025-05-04 12:30:18,474 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250504_123017.png
+2025-05-04 12:30:18,474 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250504_123017.png
+2025-05-04 12:41:39,250 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-04 12:41:39,250 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-04 12:41:58,574 - TriageBot - INFO - Loading TinyLlama model from local directory...
+2025-05-04 12:41:59,791 - TriageBot - INFO - Processing input: fever, cough, shortness of breath
+2025-05-04 12:41:59,791 - TriageBot - INFO - Extracting entities from text: fever, cough, shortness of breath
+2025-05-04 12:41:59,807 - TriageBot - INFO - Extracted entities: {'symptoms': ['fever', 'cough'], 'conditions': ['shortness of breath', 'fever', 'cough']}
+2025-05-04 12:41:59,807 - TriageBot - INFO - Extracted entities: {'symptoms': ['fever', 'cough'], 'conditions': ['shortness of breath', 'fever', 'cough']}
+2025-05-04 12:41:59,807 - TriageBot - INFO - Enriching entities: {'symptoms': ['fever', 'cough'], 'conditions': ['shortness of breath', 'fever', 'cough']}
+2025-05-04 12:41:59,807 - TriageBot - INFO - Enriched entities: {'symptoms': ['fever', 'cough'], 'conditions': ['shortness of breath', 'fever', 'cough'], 'possible_conditions': ['COVID-19', 'Influenza', 'Bacterial Infection', 'Bronchitis']}
+2025-05-04 12:41:59,807 - TriageBot - INFO - Enriched entities: {'symptoms': ['fever', 'cough'], 'conditions': ['shortness of breath', 'fever', 'cough'], 'possible_conditions': ['COVID-19', 'Influenza', 'Bacterial Infection', 'Bronchitis']}
+2025-05-04 12:48:06,920 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-04 12:48:06,920 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-04 12:48:25,857 - TriageBot - INFO - Loading TinyLlama model from local directory...
+2025-05-04 12:48:26,942 - TriageBot - INFO - Processing input: fever, cough, shortness of breath
+2025-05-04 12:48:26,942 - TriageBot - INFO - Extracting entities from text: fever, cough, shortness of breath
+2025-05-04 12:48:26,957 - TriageBot - INFO - Extracted entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever', 'shortness of breath', 'cough']}
+2025-05-04 12:48:26,957 - TriageBot - INFO - Extracted entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever', 'shortness of breath', 'cough']}
+2025-05-04 12:48:26,957 - TriageBot - INFO - Enriching entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever', 'shortness of breath', 'cough']}
+2025-05-04 12:48:26,957 - TriageBot - INFO - Enriched entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever', 'shortness of breath', 'cough'], 'possible_conditions': ['Bacterial Infection', 'Influenza', 'COVID-19', 'Bronchitis']}
+2025-05-04 12:48:26,957 - TriageBot - INFO - Enriched entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever', 'shortness of breath', 'cough'], 'possible_conditions': ['Bacterial Infection', 'Influenza', 'COVID-19', 'Bronchitis']}
+2025-05-04 12:55:43,069 - TriageBot - INFO - Triage result: {'priority': 'routine', 'symptom_count': 3, 'priority_score': 3, 'possible_conditions': 'undetermined condition', 'justification': "Given the symptoms symptoms, conditions, possible_conditions, explain why the triage priority is 'routine' and suggest possible conditions: undetermined condition.\n\n2. Routine triage priority:\n\n- Routine triage priority:\n\n- The triage priority for this patient is 'routine'. This means that the patient's symptoms and conditions are not life-threatening or life-limiting, and the patient's"}
+2025-05-04 12:55:43,069 - TriageBot - INFO - Report generated at: C:\Users\Dell\IntelligentPatientTriageBot\app\reports\triage_report_20250504_125543.txt
+2025-05-04 12:55:43,844 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250504_125543.png
+2025-05-04 12:55:43,844 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250504_125543.png
+2025-05-05 15:37:01,100 - TriageBot - INFO - Starting Intelligent Patient Triage Bot (CPU-optimized)
+2025-05-05 15:37:01,101 - TriageBot - INFO - Loading spaCy biomedical model...
+2025-05-05 15:37:24,476 - TriageBot - INFO - Loading TinyLlama model from local directory...
+2025-05-05 15:37:29,842 - TriageBot - INFO - Processing input: fever cough shortness of breath
+2025-05-05 15:37:29,843 - TriageBot - INFO - Extracting entities from text: fever cough shortness of breath
+2025-05-05 15:37:29,935 - TriageBot - INFO - Extracted entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever cough shortness of breath']}
+2025-05-05 15:37:29,935 - TriageBot - INFO - Extracted entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever cough shortness of breath']}
+2025-05-05 15:37:29,936 - TriageBot - INFO - Enriching entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever cough shortness of breath']}
+2025-05-05 15:37:29,936 - TriageBot - INFO - Enriched entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever cough shortness of breath'], 'possible_conditions': ['Bronchitis', 'Influenza', 'COVID-19', 'Bacterial Infection']}
+2025-05-05 15:37:29,936 - TriageBot - INFO - Enriched entities: {'symptoms': ['fever', 'cough'], 'conditions': ['fever cough shortness of breath'], 'possible_conditions': ['Bronchitis', 'Influenza', 'COVID-19', 'Bacterial Infection']}
+2025-05-05 15:48:30,980 - TriageBot - INFO - Triage result: {'priority': 'routine', 'symptom_count': 3, 'priority_score': 3, 'possible_conditions': 'undetermined condition', 'justification': "Given the symptoms symptoms, conditions, possible_conditions, explain why the triage priority is 'routine' and suggest possible conditions: undetermined condition.\n\n2. Routine triage priority:\n\n- Routine triage priority:\n\n- The triage priority for this patient is 'routine'. This means that the patient's symptoms and conditions are not life-threatening or life-limiting, and the patient's"}
+2025-05-05 15:48:31,128 - TriageBot - INFO - Report generated at: C:\Users\Dell\IntelligentPatientTriageBot\app\reports\triage_report_20250505_154831.txt
+2025-05-05 15:48:37,500 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250505_154831.png
+2025-05-05 15:48:37,500 - TriageBot - INFO - Visualization generated at: app/visualizations/triage_viz_20250505_154831.png

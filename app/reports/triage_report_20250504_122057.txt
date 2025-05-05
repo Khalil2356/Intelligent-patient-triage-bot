@@ -1,0 +1,16 @@
+Intelligent Patient Triage Bot Report
+Generated: 20250504_122057
+
+Symptoms:
+- cough
+- fever
+
+Possible Conditions:
+- Bronchitis
+- Influenza
+- Bacterial Infection
+- COVID-19
+
+Triage Recommendation:
+Priority: <priority>
+Justification: <justification>

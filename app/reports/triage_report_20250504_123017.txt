@@ -1,0 +1,10 @@
+Intelligent Patient Triage Bot Report
+Generated: 20250504_123017
+
+Symptoms:
+
+Possible Conditions:
+
+Triage Recommendation:
+Priority: <priority>
+Justification: <justification>
